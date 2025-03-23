@@ -1,4 +1,4 @@
-# Lab Activity 1 - RPC
+# Lab Activity 1 - RPC 
 ## Overview
 In this lab, we learned about Remote Procedure Calls (RPC) using the Go programming language. The goal was to build a basic RPC client (server was provided) that can communicate over a network and perform simple arithmetic operations like addition, subtraction, multiplication, and division.
 

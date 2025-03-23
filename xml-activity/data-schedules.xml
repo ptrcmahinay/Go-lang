@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<university name="Cavite State University Naic">
+  <department name="Information Technology Department" acronym="IT">
+    <course name="Bachelor of Science in Information Technology" acronym="BSIT">
+
+      <schedule>
+        <section year="2">C</section>
+        <subject code="ITEC 60" title="Integrated Programming and Technologies 1"></subject>
+        <instructor>Gabriel Christian Arcega</instructor>
+        <day>Tuesday</day>
+        <time>9:00 AM - 11:00 AM</time>
+        <room>Com Lab C</room>
+      </schedule>
+
+      <schedule>
+        <section year="2">B</section>
+        <subject code="ITEC 60" title="Integrated Programming and Technologies 1"></subject>
+        <instructor>Gabriel Christian Arcega</instructor>
+        <day>Thursday</day>
+        <time>7:00 AM - 9:00 AM</time>
+        <room>ITD 202</room>
+      </schedule>
+
+    </course>
+    <course name="Bachelor of Science in Computer Science" acronym="BSCS">
+
+      <schedule>
+        <section year="2">A</section>
+        <subject code="COSC 70" title="Database Systems"></subject>
+        <instructor>Jomari Launio</instructor>
+        <day>Monday</day>
+        <time>11:00 AM - 1:00 PM</time>
+        <room>ITD 202</room>
+      </schedule>
+
+      <schedule>
+        <section year="2">B</section>
+        <subject code="DCIT 25" title="Data Structures and Algorithms"></subject>
+        <instructor>Henry Balanza</instructor>
+        <day>Tuesday</day>
+        <time>9:00 AM - 11:00 AM</time>
+        <room>Com Lab A</room>
+      </schedule>
+
+    </course>
+  </department>
+</university>
