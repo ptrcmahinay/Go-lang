@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt-activity/students.xsl"?>
+
+
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students>
+    <student id="2022101">
+        <name>Juan Pedro</name>
+        <birthday>18</birthday>
+        <email>juanpedro@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Information Technology</course>
+            <section>1A</section>
+        </department>
+    </student>
+    
+    <student id="2022102">
+        <name>Maria Santos</name>
+        <birthday>19</birthday>
+        <email>mariasantos@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Computer Science</course>
+            <section>2B</section>
+        </department>
+    </student>
+
+    <student id="2022103">
+        <name>Robert Lim</name>
+        <birthday>20</birthday>
+        <email>robertlim@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Information Technology</course>
+            <section>3C</section>
+        </department>
+    </student>
+
+    <student id="2022104">
+        <name>Ana Cruz</name>
+        <birthday>21</birthday>
+        <email>anacruz@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Information Technology</course>
+            <section>4B</section>
+        </department>
+    </student>
+
+    <student id="2022105">
+        <name>Daniel Garcia</name>
+        <birthday>22</birthday>
+        <email>danielgarcia@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Computer Science</course>
+            <section>4A</section>
+        </department>
+    </student>
+
+    <student id="2022106">
+        <name>Sarah Lee</name>
+        <birthday>20</birthday>
+        <email>sarahlee@email.com</email>
+        <department abbrev="ITD"> 
+            <course>Computer Science</course>
+            <section>3A</section>
+        </department>
+    </student>
+</students>

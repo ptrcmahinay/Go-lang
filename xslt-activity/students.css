@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:900');
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF; 
+  font-family: "Kanit", sans-serif; 
+  font-size: 60px; 
+  line-height: 1.3em;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 0%;
+  transform: translateY(-50%); /* Vertically center the text */
+  width: 100%;
+  
+  /* 3D text shadow */
+  text-shadow: 
+    0 0 5px rgba(194, 57, 137, 0.05),  /* Subtle pink glow */
+    0 -1px 3px rgba(194, 57, 137, 0.2), /* Pink shadow from top */
+    0 3px 5px rgba(194, 57, 137, 0.2),  /* Pink shadow from bottom */
+    0 5px 10px rgba(194, 57, 137, 0.3), /* Stronger pink shadow */
+    0 10px 15px rgba(194, 57, 137, 0.4); /* Deepest pink shadow */
+
+  /* Optional: Tilt the text for a 3D effect */
+  transform: rotateX(10deg);
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: none;
+  border-spacing: 0;
+  background: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  margin-bottom: 30px;
+  transition: all 0.3s ease; 
+}
+
+/* Table header styling */
+th {
+  background-color: #ff66b2; 
+  color: white;
+  font-weight: bold;
+  padding: 14px;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+/* Table cell styling */
+td {
+  padding: 12px;
+  text-align: center;
+  color: #333;
+  border: 1px solid #ff99cc; 
+  transition: background-color 0.3s ease; 
+}
+
+tr:nth-child(even) {
+  background-color: #ffe6f2; 
+}
+
+tr:hover {
+  background-color: pink; 
+}
+
+td:hover {
+  background-color: #ff80bf; 
+  cursor: pointer; 
+}
+
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;  
+}
+
+tr {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
